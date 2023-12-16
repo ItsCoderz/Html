@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid term</title>
+</head>
+<body>
+
+    <!--Question No 1:-Perform following task using valid HTML coding: (2 marks)
+    
+    a) Prints your name in a Verdana (sans-serif).
+    b) Make the font-color #00FF00.
+    c) Make it Bold
+    d) Choose it as the most Emphasized heading.-->
+
+
+   <h1 style="font-family: Verdana, sans-serif; color: #00FF00; font-weight: bold;">Muddassir Hasni</h1>
+   
+   <!--Question No 2:-Mention the purpose of following tags:
+    <sup> <li> <i> <ul>-->
+   
+        <!--Question No 2(i)-->
+
+   <p>This text contains <sup>superscript</sup> text.</p>
+
+    <!--Question No 2(ii,iv)-->
+    
+    <p> ul and li purpose </p>
+
+<ul>
+  <li>Mango</li>
+  <li>Orange</li>
+  <li>Banana</li>
+  <li>Peach</li>
+  <li>Pineapple</li>
+</ul>
+    <!--Question No 2(iii)-->
+
+     <i>This tag is use for write in italic</i>
+
+    
+    <!--Question No 3:-Write HTML code to generate the form.-->
+
+    
+    <h2>Advertisement Form</h2>
+    <form action="submit-form.php" method="POST">
+        <label for="name">Name/Company Name:</label>
+        <input type="text" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+        <label for="ad_start">Ad Start Date:</label>
+        <input type="date" name="ad_start" required><br><br>
+        <label for="ad_end">Ad End Date:</label>
+        <input type="date" name="ad_end" required><br><br>
+        <h3>Advertisement Size:</h3>
+        <label for="size1"><input type="radio" name="size" value="1" required>Option 1</label><br>
+        <label for="size2"><input type="radio" name="size" value="2">Option 2</label><br>
+        <label for="size3"><input type="radio" name="size" value="3">Option 3</label><br><br>
+        <h3>Which Shoes Would Like to Advertise On:</h3>
+        <label for="shoe1"><input type="checkbox" name="shoes[]" value="1">Option 1</label><br>
+        <label for="shoe2"><input type="checkbox" name="shoes[]" value="2">Option 2</label><br>
+        <label for="shoe3"><input type="checkbox" name="shoes[]" value="3">Option 3</label><br><br>
+        <h3>Website to be Advertised:</h3>
+        <input type="url" name="website" required><br><br>
+        <h3>Comment:</h3>
+        <textarea name="comment"></textarea><br><br>
+        <button type="submit">Submit</button>
+
+</body>
+</html>
